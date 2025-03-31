@@ -1,7 +1,4 @@
-FROM openjdk:8-jdk-alpine
-LABEL authors="ivanov_n"
-
-ENTRYPOINT ["top", "-b"]
+FROM openjdk:17-jdk-alpine
 
 EXPOSE 8080
 
